@@ -1,0 +1,131 @@
+@import
+url("https://pages-themes.github.io/cayman/assets/css/style.css");
+
+.between {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0; /* optional spacing between rows */
+}
+
+h3 {
+  color: #666666 !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.15rem !important;
+}
+
+h3 + p {
+  font-size: 0.95rem;
+  color: #999999 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.3rem !important;
+}
+
+.page-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 0.8rem 1rem !important;
+}
+.page-header .project-name {
+  font-size: 1.8rem !important;
+  margin: 0 !important;
+}
+.page-header .project-tagline {
+  font-size: 1rem !important;
+  margin: 0 !important;
+}
+.site-footer {
+  padding: 0.3rem 1rem !important;
+  margin-top: 0.5rem !important;
+}
+
+.noprint {
+  display: block !important;
+}
+
+.onlyprint {
+  display: none !important;
+}
+
+@media print {
+
+  body {
+    font-size: 11px;
+    line-height: 1.35;
+  }
+
+  .noprint {
+    display: none !important;
+  }
+  .onlyprint {
+    display: block !important;
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+  }
+
+  .page-header,
+  .site-footer {
+    display: none !important;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.3rem;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin-top: 1.0rem;
+    margin-bottom: 0.5rem;
+    page-break-after: avoid;
+  }
+  h3 {
+    font-size: 1rem;
+    margin-top: 1.3rem !important;
+    margin-bottom: 0.1rem;
+    page-break-after: avoid;
+  }
+
+  h3 + p {
+    font-size: 0.9rem;
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+  }
+
+  ul,
+  ol {
+    margin-top: 0.15rem !important;
+    margin-bottom: 0.8rem !important;
+    padding-left: 1.1rem;
+  }
+
+  li {
+    margin-bottom: 0.15rem !important;
+    page-break-inside: avoid;
+  }
+
+  h3,
+  h3 + p,
+  h3 + p + ul {
+    page-break-inside: avoid;
+  }
+
+  a,
+  a:visited {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+
+  /* Prevent browser from appending raw URLs */
+  a[href]:after {
+    content: "" !important;
+  }
+
+  p {
+    margin-bottom: 0.3rem !important;
+  }
+
+  .page-break {
+    page-break-before: always;
+  }
+}
