@@ -44,33 +44,33 @@ A software developer with 6+ years of experience in Machine Learning development
 Automotive Embedded Systems • Model Optimization • System Integration
 
 - **Full-Stack AI Development** (Python / PyTorch / C/C++ / Embedded System)
-  Owned the end-to-end pipeline from model training to embedded deployment, improving overall pipeline performance by 15% and shipping fully working features on edge devices.
+  * Owned the end-to-end pipeline from model training to embedded deployment, improving overall pipeline performance by 15% and shipping fully working features on edge devices.
 
 - **Multi-Stream Object Detection Post-Processing** (C/C++ / OpenCV / Embedded System)
-  - Improved object positioning accuracy by 35% and detection accuracy by 10%.
-  - Designed multi-camera fusion and tracking algorithms for embedded multi-stream detection.
-  - Extended functionality to support BSD (Blind Spot Detection).
+  * Improved object positioning accuracy by 35% and detection accuracy by 10%.
+  * Designed multi-camera fusion and tracking algorithms for embedded multi-stream detection.
+  * Extended functionality to support BSD (Blind Spot Detection).
 
 - **Lane Detection Model Post-Processing** (C/C++ / OpenCV / Embedded System)
-  - Designed post-processing algorithms that improved lane overlap rate by over 50%.
-  - Designed tracking algorithms that improved accuracy by over 35%.
-  - Developed extended functionalities including LDW, BEV, and ACC.
+  * Designed post-processing algorithms that improved lane overlap rate by over 50%.
+  * Designed tracking algorithms that improved accuracy by over 35%.
+  * Developed extended functionalities including LDW, BEV, and ACC.
 
 - **Research on Deep Learning Models for Depth Estimation** (Python / PyTorch / OpenCV)
-  - Addressed the challenge of training models for dynamic objects, achieving a 70% improvement in dynamic object detection accuracy (Taiwan Patent No. TW202507568A).
-  - Designed a training method leveraging the OpenCV fisheye model.
-  - Designed a training algorithm for low-quality images, improving accuracy by over 50%.
+  * Addressed the challenge of training models for dynamic objects, achieving a 70% improvement in dynamic object detection accuracy (Taiwan Patent No. TW202507568A).
+  * Designed a training method leveraging the OpenCV fisheye model.
+  * Designed a training algorithm for low-quality images, improving accuracy by over 50%.
 
 ### Software Engineer — E-Lead Electronic Co Ltd (2019–2021)
 AR-HUD • Model Design • Graphics Engineering
 
 - **Spatial Alignment Algorithm Design** (C/C++)
-  Developed real-time spatial alignment algorithms—including 3D-to-2D coordinate transformation, curved windshield distortion compensation, and optimized dewarping—improving overall image overlay by 15%.
+  * Developed real-time spatial alignment algorithms—including 3D-to-2D coordinate transformation, curved windshield distortion compensation, and optimized dewarping—improving overall image overlay by 15%.
 
 - **Eye-Tracking Model & System Integration** (Python / PyTorch / C/C++)
-  Established robust in-vehicle communication protocols between the HUD and external ADAS/NAVI systems to drive dynamic, real-time eye-tracking feedback.
+  * Established robust in-vehicle communication protocols between the HUD and external ADAS/NAVI systems to drive dynamic, real-time eye-tracking feedback.
 
 ## Education
 
-**Master's Degree, Mechanical and Electrical Engineering**
-National Changhua University of Education [2015-2017]
+### Master's Degree, Mechanical and Electrical Engineering (2015–2017)
+National Changhua University of Education
